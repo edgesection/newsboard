@@ -1,0 +1,108 @@
+*{
+	margin: 0px;
+	overflow-x: hidden;
+}
+body{
+	background: #303030;
+	color: white;
+}
+body *{
+	overflow: hidden;
+}
+main{
+	position: relative;
+	width: calc(60vw - 40px);
+	margin: 20px 20vw;
+	background: steelblue;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+main .title{
+	position: relative;
+	display: block;
+	padding: 5px;
+}
+main .title span{
+	position: relative;
+	display: block;
+	font-weight: bold;
+	font-size: 110%;
+}
+main .title input{
+	position: relative;
+	margin: 10px 0px;
+	display: block;
+	width: calc(100% - 10px);
+	padding: 5px;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+	color: black;
+}
+main .title div#text{
+	position: relative;
+	margin: 10px 0px;
+	width: calc(100% - 10px);
+	padding: 5px;
+	background: white;
+	outline: none;
+	border-radius: 5px;
+	color: black;
+}
+
+.inputData{
+	position: relative;
+	width: calc(60vw - 20px);
+	left: 20vw;
+	padding: 0px 10px;
+}
+.inputData .idUser{
+	position: relative;
+	display: block;
+	padding: 5px 0px;
+	border-radius: 5px;
+	background: steelblue;
+}
+.inputData .idUser span{
+	position: relative;
+	display: block;
+	padding: 5px 20px;
+	font-weight: bold;
+}
+.inputData .idUser input{
+	position: relative;
+    padding: 5px 5px;
+    display: block;
+    width: calc(100% - 50px);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 20px 10px 20px;
+}
+.inputData .send{
+	position: relative;
+	display: block;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	padding: 10px 0px;
+	background: steelblue;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 10px 0px 0px 0px;
+}
+.answer{
+	
+	position: absolute;
+	width: 60vw;
+	left: 20vw;
+	bottom: 0px;
+	color: white;
+	
+}
+.answer span{
+	position: relative;
+	display: block;
+	padding: 5px;
+	text-align: center;
+}

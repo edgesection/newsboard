@@ -1,0 +1,257 @@
+*{
+	margin: 0px;
+	overflow-x: hidden;
+}
+body{
+	background: #e6e6e6;
+}
+body *{
+	overflow: hidden;
+}
+.notNews{
+	
+	position: relative;
+	width: 100%;
+	top: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	font-weight: bold;
+	background: white;
+	border-radius: 5px;
+	
+}
+main{
+	position: relative;
+	width: 60vw;
+	left: 20vw;
+}
+main .listForAddingNewPost{
+	position: relative;
+	display: block;
+	padding: 5px;
+	border-radius: 5px;
+	background: white;
+	margin: 10px 0px;
+	display: none;
+}
+main .listForAddingNewPost span{
+	position: relative;
+	margin: 10px 0px;
+	font-weight: bold;
+	font-size: 110%;
+}
+main .listForAddingNewPost input{
+	position: relative;
+	width: calc(100% - 14px);
+	border: 2px solid #303030;
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+	margin: 10px 0px;
+}
+main .listForAddingNewPost #textLFANP{
+	position: relative;
+	width: calc(100% - 14px);
+	border: 2px solid #303030;
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+	margin: 10px 0px;
+	background: white;
+}
+main .addNewsButton{
+	position: relative;
+	display: block;
+	border-radius: 5px;
+	padding: 10px 5px;
+	text-align: center;
+	font-weight: bold;
+	background: steelblue;
+	color: white;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+main .amountNews{
+	position: relative;
+	display: block;
+	padding: 5px 0px;
+	margin: 10px 0px;
+	/*background: yellow;*/
+	font-weight: bold;
+	font-size: 110%;
+}
+main .amountNews span{
+	position: relative;
+	float: right;
+	right: 0px;
+	color: #aeaeae;
+	cursor: pointer;;
+}
+main .news{
+	position: relative;
+	display: block;
+	background: white;
+	border-radius: 5px;
+	margin: 10px 0px;
+	padding: 5px;
+}
+main .news .title{
+	position: relative;
+	display: block;
+	width: calc(100% - 20px);
+	left: 10px;
+	padding: 5px 0px;
+	font-weight: bold;
+	font-size: 110%;
+	border-bottom: 2px solid #e6e6e6;
+}
+main .news .title #idMes{
+	display: none;
+}
+main .news .title #time{
+	position: relative;
+    float: right;
+    font-size: 87%;
+    top: 2px;
+    color: #aeaeae;
+	cursor: pointer;
+}
+main .news .title #deleteNewsPost{
+	position: relative;
+    width: 20px;
+    height: 20px;
+    float: right;
+    right: 0px;
+    margin: 0px 0px 0px 10px;
+	cursor: pointer;
+	user-select: none;
+}
+main .news .content{
+	position: relative;
+	display: block;
+	margin: 10px 0px 5px 0px;
+	padding: 0px 10px;
+}
+main .news .content img{
+	position: relative;
+	width: calc(100% - 20px);
+	left: 10px;
+	display: block;
+	object-fit: cover;
+	margin: 10px 0px;
+	user-select: none;
+}
+main .news .desc{
+	position: relative;
+	display: block;
+	height: 20px;
+	margin: 20px 0px 0px 0px;
+	padding: 5px 10px;
+}
+main .news .desc img#icon{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+main .news .desc span{
+	top: 2px;
+	position: relative;
+	display: inline-block;
+	left: 5px;
+	margin: 0px 2px;
+	padding: 3px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+main .news .desc #change{
+	position: relative;
+	color: steelblue;
+	float: right;
+	right: 0px;
+	opacity: 0.5;
+	top: 5px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.option{
+	position: fixed;
+	top: 0px;
+	float: right;
+	right: 0px;
+	width: 30px;
+	padding: 5px;
+	height: calc(100vh);
+}
+.option img{
+	position: relative;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.settings{
+	position: absolute;
+	top: 0px;
+	float: right;
+	right: calc(60px - 40vw);
+	width: calc(40vw - 110px);
+	padding: 5px;
+	background: #303030;;
+}
+.settings .showID{
+	position: relative;
+	top: 10px;
+	background: white;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.settings .showID span{
+	display: inline-block;
+}
+.checker{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: crimson;
+	border-radius: 30px;
+	left: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+.settings .listQuery{
+	position: relative;
+	display: block;
+	width: 100%;
+	top: 20px;
+	height: calc(100% - 45px);
+}
+.settings .listQuery .query{
+	position: relative;
+	border-radius: 5px;
+	background: white;
+	padding: 5px;
+	color: #05a;
+	margin: 0px 0px 10px 0px;
+}
+.settings .listQuery .query .desc{
+	position: relative;
+	display: block;
+	background: #303030;
+	color: white;
+	padding: 5px;
+	margin: 10px 0px 0px 0px;
+	border-radius: 5px;
+}
+#commandsql{
+	color: #770088;
+}
+#paramsql{
+	color: #aa1111;
+}
+#allsql{
+	color: #ff00ff;
+}
